@@ -14,7 +14,7 @@ struct ContentView: View {
     @State private var score = 0
     @State private var showingScore = false
     @State private var scoreTitle = ""
-    
+//    
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.blue, .white, .yellow, ]), startPoint: .top, endPoint: .bottom)
